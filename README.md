@@ -1,12 +1,12 @@
 # 🍬 Kandy UIkit
 
-[![Version](https://img.shields.io/npm/v/@kandyswap-libs/uikit)](https://www.npmjs.com/package/@kandyswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@kandyswap-libs/uikit)](https://www.npmjs.com/package/@kandyswap-libs/uikit)
+[![Version](https://img.shields.io/npm/v/@kandyswap/uikit)](https://www.npmjs.com/package/@kandyswap/uikit) [![Size](https://img.shields.io/bundlephobia/min/@kandyswap/uikit)](https://www.npmjs.com/package/@kandyswap/uikit)
 
 Kandy UIkit is a set of React components and hooks used to build pages on Kandy's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
-`yarn add @kandyswap-libs/uikit`
+`yarn add @kandyswap/uikit`
 
 ## Setup
 
@@ -16,7 +16,7 @@ Before using Kandy UIkit, you need to provide the theme file to styled-component
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@kandyswap-libs/uikit'
+import { light, dark } from '@kandyswap/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -26,7 +26,7 @@ import { light, dark } from '@kandyswap-libs/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@kandyswap-libs/uikit'
+import { ResetCSS } from '@kandyswap/uikit'
 ...
 <ResetCSS />
 ```
