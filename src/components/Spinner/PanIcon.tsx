@@ -131,7 +131,7 @@ const Icon: React.FC<SvgProps> = (props) => {
             className="shp4"
             d="M314.63 278.96L330.05 278.96C332.1 285.98 333.88 294.87 335.3 305.96L314.63 305.96C307.5 305.96 301.67 300.13 301.67 293.01L301.67 291.92C301.67 284.79 307.5 278.96 314.63 278.96Z"
           />
-          <path id="<Compound Path>" className="shp5" d />
+          <path id="<Compound Path>" className="shp5" />
           <path
             id="<Path>"
             className="shp6"
