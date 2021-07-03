@@ -31,7 +31,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
       />
     ))}
     <HelpLink
-      href="https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain"
+      href="https://kuswap.medium.com/connecting-metamask-to-kucoin-community-chain-kcc-bb63d0a49b41"
       external
     >
       <HelpIcon color="primary" mr="6px" />

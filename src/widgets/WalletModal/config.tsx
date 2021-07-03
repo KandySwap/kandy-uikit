@@ -33,16 +33,16 @@ const connectors: Config[] = [
     icon: WalletConnect,
     connectorId: ConnectorNames.WalletConnect,
   },
-  {
-    title: "Binance Chain Wallet",
-    icon: BinanceChain,
-    connectorId: ConnectorNames.BSC,
-  },
-  {
-    title: "SafePal Wallet",
-    icon: SafePalWallet,
-    connectorId: ConnectorNames.Injected,
-  },
+  // {
+  //   title: "Binance Chain Wallet",
+  //   icon: BinanceChain,
+  //   connectorId: ConnectorNames.KCC,
+  // },
+  // {
+  //   title: "SafePal Wallet",
+  //   icon: SafePalWallet,
+  //   connectorId: ConnectorNames.Injected,
+  // },
 ];
 
 export default connectors;
