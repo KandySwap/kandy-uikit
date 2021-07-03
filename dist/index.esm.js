@@ -2534,11 +2534,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.pancakeswap.finance",
+                href: "https://dex.kandyswap.com",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.pancakeswap.finance/#/pool",
+                href: "https://dex.kandyswap.com/#/pool",
             },
         ],
     },
@@ -2583,19 +2583,19 @@ var links = [
         items: [
             {
                 label: "Overview",
-                href: "https://pancakeswap.info",
+                href: "https://kandyswap.info",
             },
             {
                 label: "Tokens",
-                href: "https://pancakeswap.info/tokens",
+                href: "https://kandyswap.info/tokens",
             },
             {
                 label: "Pairs",
-                href: "https://pancakeswap.info/pairs",
+                href: "https://kandyswap.info/pairs",
             },
             {
                 label: "Accounts",
-                href: "https://pancakeswap.info/accounts",
+                href: "https://kandyswap.info/accounts",
             },
         ],
     },
@@ -2619,19 +2619,19 @@ var links = [
         items: [
             {
                 label: "Voting",
-                href: "https://voting.pancakeswap.finance",
+                href: "https://voting.kandyswap.com",
             },
             {
                 label: "Github",
-                href: "https://github.com/pancakeswap",
+                href: "https://github.com/kandyswap",
             },
             {
                 label: "Docs",
-                href: "https://docs.pancakeswap.finance",
+                href: "https://docs.kandyswap.com",
             },
             {
                 label: "Blog",
-                href: "https://pancakeswap.medium.com",
+                href: "https://kandyswap.medium.com",
             },
         ],
     },
@@ -2640,65 +2640,12 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/pancakeswap",
-            },
-            {
-                label: "Bahasa Indonesia",
-                href: "https://t.me/PancakeSwapIndonesia",
-            },
-            {
-                label: "中文",
-                href: "https://t.me/PancakeSwap_CN",
-            },
-            {
-                label: "Tiếng Việt",
-                href: "https://t.me/PancakeSwapVN",
-            },
-            {
-                label: "Italiano",
-                href: "https://t.me/pancakeswap_ita",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/pancakeswap_ru",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/pancakeswapturkiye",
-            },
-            {
-                label: "Português",
-                href: "https://t.me/PancakeSwapPortuguese",
-            },
-            {
-                label: "Español",
-                href: "https://t.me/PancakeswapEs",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/pancakeswapjp",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/pancakeswapfr",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/PancakeSwapAnn",
-            },
-            {
-                label: "Whale Alert",
-                href: "https://t.me/PancakeSwapWhales",
-            },
-        ],
+        href: "https://t.me/KandySwap",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/pancakeswap",
+        href: "https://twitter.com/KandySwap",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2836,9 +2783,6 @@ var SocialLinks = function () { return (React.createElement(Flex, null, socials.
     var Icon = Icons$2[social.icon];
     var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
     var mr = index < socials.length - 1 ? "24px" : 0;
-    if (social.items) {
-        return (React.createElement(Dropdown, { key: social.label, position: "top", target: React.createElement(Icon, __assign({}, iconProps, { mr: mr })) }, social.items.map(function (item) { return (React.createElement(Link, { external: true, key: item.label, href: item.href, "aria-label": item.label, color: "textSubtle" }, item.label)); })));
-    }
     return (React.createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
         React.createElement(Icon, __assign({}, iconProps))));
 }))); };
