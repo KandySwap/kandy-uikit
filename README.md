@@ -1,7 +1,5 @@
 # 🍬 Kandy UIkit
 
-**This repository is not used anymore. See the [https://github.com/kandyswap/kandy-toolkit](Kandy toolkit) instead**
-
 [![Version](https://img.shields.io/npm/v/@kandyswap-libs/uikit)](https://www.npmjs.com/package/@kandyswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@kandyswap-libs/uikit)](https://www.npmjs.com/package/@kandyswap-libs/uikit)
 
 Kandy UIkit is a set of React components and hooks used to build pages on Kandy's apps. It also contains a theme file for dark and light mode.
