@@ -11,7 +11,7 @@ const getScale = ({ scale }: CheckboxProps) => {
   }
 };
 
-const Checkbox = styled.input.attrs({ type: "checkbox" })<CheckboxProps>`
+const Checkbox = styled.input.attrs({ type: "checkbox" }) <CheckboxProps>`
   appearance: none;
   overflow: hidden;
   cursor: pointer;
@@ -22,7 +22,7 @@ const Checkbox = styled.input.attrs({ type: "checkbox" })<CheckboxProps>`
   vertical-align: middle;
   transition: background-color 0.2s ease-in-out;
   border: 0;
-  border-radius: 8px;
+  border-radius: 4px;
   background-color: ${({ theme }) => theme.colors.input};
   box-shadow: ${({ theme }) => theme.shadows.inset};
 
