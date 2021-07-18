@@ -39,6 +39,16 @@ export const links = [
     href: "/nft",
   },
   {
+    label: "Request Listing",
+    icon: "RequestListingIcon",
+    href: "https://t.me/Santa_KandySwap",
+  },
+  {
+    label: "Token Locker",
+    icon: "LockIcon",
+    href: "https://kandylock.com",
+  },
+  {
     label: "Profile & Teams",
     icon: "GroupsIcon",
     items: [
